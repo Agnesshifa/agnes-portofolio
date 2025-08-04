@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Digital Marketing</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+    header h1 {
+      font-size: 1.5rem;
+    }
+    nav a {
+      color: #fff;
+      margin-left: 1rem;
+      text-decoration: none;
+    }
+    .hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+      padding: 3rem 2rem;
+      background-color: #000;
+      color: #fff;
+    }
+    .hero img {
+      width: 300px;
+      height: auto;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+    .hero-text {
+      flex: 1;
+      min-width: 280px;
+      max-width: 600px;
+    }
+    .hero-text h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+    .hero-text p {
+      font-size: 1.1rem;
+      line-height: 1.5;
+    }
+    .social {
+      margin-top: 2rem;
+    }
+    .social a {
+      margin-right: 1rem;
+      text-decoration: none;
+      color: #fff;
+      background-color: #444;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-size: 0.9rem;
+    }
+    section {
+      padding: 2rem;
+    }
+    .portofolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.5rem;
+      margin-top: 1rem;
+    }
+    .portofolio-grid img {
+      width: 100%;
+      max-width: 300px;
+      border-radius: 8px;
+      margin: 0 auto;
+      display: block;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #111;
+      color: #aaa;
+      font-size: 0.9rem;
+    }
+    .cv-download a {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #222;
+      color: #fff;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    h3 {
+      margin-top: 2rem;
+      font-size: 1.3rem;
+      color: #222;
+    }
+    h2 {
+      margin-bottom: 1rem;
+    }
+
+    .video-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1rem;
+    }
+
+    .video-buttons a {
+      display: inline-block;
+      background-color: #111;
+      color: #fff;
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 0.9rem;
+      transition: background-color 0.3s;
+    }
+
+    .video-buttons a:hover {
+      background-color: #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Agnes Shifa</h1>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#portofolio">Portofolio</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <img src="foto.jpg" alt="Foto Agnes Shifa">
+    <div class="hero-text">
+      <h2>Portofolio<br><span style="color: #ccc">Digital Marketing</span></h2>
+      <p>Selamat datang di portofolio saya. Saya adalah siswi SMK Telkom Malang yang memiliki ketertarikan di bidang digital marketing, kreatif konten. Di sini Anda bisa melihat hasil karya saya dalam bentuk visual dan proyek nyata.</p>
+      <div class="social">
+        <a href="https://www.instagram.com/agnesshifa_" target="_blank">Instagram</a>
+        <a href="https://www.linkedin.com/in/agnesshifa" target="_blank">LinkedIn</a>
+        <a href="https://wa.me/6285601972013" target="_blank">WhatsApp</a>
+        <a href="mailto:shifaagnes33@gmail.com" target="_blank">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Saya adalah siswi SMK Telkom Malang jurusan Teknik Komputer dan Jaringan yang memiliki ketertarikan dalam bidang digital marketing, konten kreatif, dan personal branding.</p>
+  </section>
+
+  <section id="portofolio">
+    <h2>Portofolio</h2>
+
+    <h3>Promosi UMKM</h3>
+    <p>Disini saya sedang mempromosikan salah satu warung makan yang ada di Malang, yaitu "Sego Sambel Cak Uut". Saya mempromosikan bersama 3 teman saya, disini saya bertugas membuat caption, voice over dan juga membantu mengedit video.</p>
+    <div class="video-buttons">
+      <a href="https://www.instagram.com/reel/DEZdpMwR5JR/" target="_blank">🍽️ Video Promosi - Sego Sambel Cak Uut</a>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin: 0.5rem 0;">
+      <img src="sego sambel.png" alt="Promosi UMKM" style="max-width: 300px; width: 100%; border-radius: 8px;">
+      <img src="caption sego sambel .png" alt="Caption Promosi UMKM" style="max-width: 300px; width: 100%; border-radius: 8px;">
+    </div>
+
+    <h3>Poster P5</h3>
+    <p>Saya membuat beberapa desain poster, yang pertama dan yang kedua adalah desain poster P5 saya, dan yang terakhir adalah kartu ucapan hari raya.</p>
+    <div class="portofolio-grid">
+      <img src="poster 2.png" alt="Poster P5">
+      <img src="poster.png" alt="Poster P5">
+      <img src="poster 3.png" alt="Poster P5">
+    </div>
+
+    <h3>Promosi Sekolah</h3>
+    <p>Sebagai Duta Wikusama (Duta Sekolah) saya juga membuat beberapa video yang mempromosikan sekolah. Video tersebut tentang pusingnya ketika codingan yang kita buat terjadi error, dan disitu juga kita sedang mempromosikan laptop Lenovo yang bekerja sama dengan SMK Telkom Malang.</p>
+    <div class="video-buttons">
+      <a href="https://www.instagram.com/reel/DBllgRZxq60/" target="_blank">👩‍💻 Video - Pusing coding (Instagram)</a>
+      <a href="https://www.tiktok.com/@smktelkommalang/video/7429285718909898002" target="_blank">🎬 Video - Duduk Bareng Ngoding (TikTok)</a>
+    </div>
+    <div class="portofolio-grid">
+      <img src="promosi sekolah.png" alt="Promosi Sekolah 1">
+      <img src="promosi sekolah 2.png" alt="Promosi Sekolah 2">
+    </div>
+
+    <h3>Akun Tugas DigiUp</h3>
+      <p>Akun Instagram pada saat mengikuti pelatihan DigiUp:</p>
+      <div class="video-buttons">
+      <a href="https://www.instagram.com/cookes.id/" target="_blank">🍪 cookes.id</a>
+      </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-bottom: 1rem;">
+      <img src="cookes digiup .png" alt="Tdk Tersirat 2" style="max-width: 300px; width: 100%; border-radius: 8px;">
+      <img src="cookes digitup2.png" alt="Tdk Tersirat 3" style="max-width: 300px; width: 100%; border-radius: 8px;">
+    </div>
+
+    <h3>Promosi Tidak Tersirat</h3>
+    <p>Ini adalah beberapa hasil karya saya dalam membuat konten promosi sekolah secara tidak tersirat. Disini merupakan konten yang saya buat semasa melakukan projek P5 bersama teman-teman saya, dan juga ada video saya sendiri menghadap ke tembok (ikut ajang Putra Putri Jawa Timur 2025). Dalam video tersebut saya juga melakukan school tour di SMK Telkom Malang.</p>
+    <div class="video-buttons">
+      <a href="https://www.instagram.com/reel/DFubVUqRQ8E/" target="_blank">🎥 Putra Putri Jatim</a>
+      <a href="https://www.instagram.com/reel/DCBexPkxFyu/" target="_blank">📹 A Day in My Life - Moklet Serve</a>
+      <a href="https://www.instagram.com/p/DIu2ZBITs3T/" target="_blank">📰 Breaking News (Konten Tersirat)</a>
+      <a href="https://www.instagram.com/p/Cz6QaPtvkOo/" target="_blank">📸 Foto P5 - Moklet Serve</a>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 1rem; justify-content: center; margin-bottom: 1rem;">
+      <img src="tdk tersirat 2.png" alt="Tdk Tersirat 2" style="max-width: 300px; width: 100%; border-radius: 8px;">
+      <img src="tdk tersirat 3.png" alt="Tdk Tersirat 3" style="max-width: 300px; width: 100%; border-radius: 8px;">
+    </div>
+    <div class="portofolio-grid">
+      <img src="promosi tdk tersirat 1.png" alt="Promosi Tidak Tersirat">
+      <img src="tdk tersirat 4.png" alt="Tdk Tersirat 4">
+    </div>
+
+  </section>
+
+  <section id="cv">
+    <h2>Curriculum Vitae (CV)</h2>
+    <p>Anda dapat mengunduh CV saya melalui tautan berikut:</p>
+    <div class="cv-download">
+      <a href="CV. Agnes-SMK Telkom.pdf" download>Download CV (PDF)</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Silakan hubungi saya melalui media sosial atau email yang tertera di atas untuk informasi lebih lanjut.</p>
+  </section>
+
+  <footer>
+    Page | 01 &copy; 2025 Agnes Shifa Ramadani Lailatul Sidiq
+  </footer>
+</body>
+</html>
